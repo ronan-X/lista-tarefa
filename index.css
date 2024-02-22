@@ -1,0 +1,57 @@
+.meu-botao {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  
+  .meu-botao:hover {
+    background-color: #2980b9;
+  }
+
+  .lista-tarefas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+  }
+
+  #titulo{
+    display: flex;
+    justify-content: center;
+  }
+  #tarefa{
+    
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+  }
+
+  #adicionar{
+    height: 55px;
+    width: 100px;
+    border-radius: 10px;
+  }
+
+  #tarefax{
+    width: 400px;
+    height: 400px;
+    background-color: darkgrey;
+   
+    margin-left: 480px;
+    margin-top: 25px;
+    border-radius: 10px;
+  }
+  #tarefas{
+    display: flex;
+    align-items: center;
+  }
+
+  .excluir{
+    border-radius: 5px;
+  }
